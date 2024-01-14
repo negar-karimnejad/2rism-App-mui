@@ -21,4 +21,4 @@ I appreciate your support in advance.❤</p>
 
 <p align="center">--------------------------------------------------------------</p>
   
-<p align="center">💡You can visit and explore in the <a href="https://trending-movies-tau.vercel.app/" target="_blank">2rism</a>.</p>
+<p align="center">💡You can visit and explore in the <a href="https://2rism-app-mui.pages.dev/" target="_blank">2rism</a>.</p>
