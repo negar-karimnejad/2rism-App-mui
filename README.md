@@ -14,8 +14,8 @@ I appreciate your support in advance.❤</p>
   
 <section width="100%" display="flex" align="center" justify-content="center" gap="2rem">
 <img src="https://img.shields.io/badge/React-111?style=for-the-badge&logo=react&logoColor=white%22"/>
+<img src="https://img.shields.io/badge/Material%20UI-007FFF?style=for-the-badge&logo=mui&logoColor=white"/>
 <img src="https://img.shields.io/badge/Vite-B73BFE?style=for-the-badge&logo=vite&logoColor=FFD62E"/>
-<img src="https://img.shields.io/badge/Mui-666?style=for-the-badge&logo=mui&logoColor=white%22"/>
 </section>
 
 
