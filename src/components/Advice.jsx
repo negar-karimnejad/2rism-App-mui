@@ -1,17 +1,13 @@
-import {
-  ArrowForward,
-  CalendarToday,
-  Comment,
-  Person,
-} from "@mui/icons-material";
-import { Box, Button, Grid } from "@mui/material";
+import { CalendarToday, Comment, Person } from "@mui/icons-material";
+import { Box, Container, Grid } from "@mui/material";
 import Typography from "@mui/material/Typography";
 import { travelItems } from "../data";
+import CustomedButton from "./CustomedButton";
 import SectionHeader from "./SectionHeader";
 
 const Advice = () => {
   return (
-    <>
+    <Container>
       <Box
         display={"flex"}
         alignItems={"center"}
@@ -19,17 +15,11 @@ const Advice = () => {
           flexDirection: { xs: "column", md: "row" },
           justifyContent: { xs: "start", md: "space-between" },
         }}
-        marginY={5}
+        marginTop={10}
+        marginBottom={4}
       >
         <SectionHeader>Travel Tips and Advice</SectionHeader>
-        <Button
-          variant="contained"
-          color="inherit"
-          sx={{ fontSize: "0.7rem", width: { xs: "50%",md:"8rem" } }}
-        >
-          View all
-          <ArrowForward fontSize="1rem" />
-        </Button>
+        <CustomedButton>View all</CustomedButton>
       </Box>
       <Grid
         container
@@ -125,7 +115,7 @@ const Advice = () => {
           </Grid>
         ))}
       </Grid>
-    </>
+    </Container>
   );
 };
 

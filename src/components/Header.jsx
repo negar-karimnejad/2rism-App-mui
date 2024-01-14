@@ -22,6 +22,7 @@ const Header = () => {
         textAlign: "center",
         justifyContent: "space-between",
         pb: 6,
+        pt: 1,
       }}
     >
       <Box>
@@ -37,7 +38,7 @@ const Header = () => {
         >
           Discover the most engaging places
         </Typography>
-        <Button variant="contained" sx={{ backgroundColor: "#7B61FF" }}>
+        <Button variant="contained" color="secondary" sx={{ py: 1.5 }}>
           <Language />
           DISCOVER ON 3D GLOBE
         </Button>
@@ -67,7 +68,7 @@ const Header = () => {
               />
             </ListItem>
           ))}
-          <Button variant="contained" sx={{ backgroundColor: "#7B61FF" }}>
+          <Button variant="contained" color="secondary">
             <img src={btnIcon} alt="" />
           </Button>
         </List>

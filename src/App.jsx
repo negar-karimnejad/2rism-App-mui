@@ -1,20 +1,21 @@
 import { CssBaseline } from "@mui/material";
-import Header from "./components/Header";
-import Destinations from "./components/Destinations";
-import Hotels from "./components/Hotels";
+import AboutUs from "./components/AboutUs";
 import Advice from "./components/Advice";
-import { Container } from "@mui/material";
+import Destinations from "./components/Destinations";
+import Footer from "./components/Footer";
+import Header from "./components/Header";
+import Hotels from "./components/Hotels";
 
 function App() {
   return (
     <>
       <CssBaseline />
       <Header />
-      <Container maxWidth="lg">
-        <Destinations />
-        <Hotels />
-        <Advice />
-      </Container>
+      <Destinations />
+      <Hotels />
+      <Advice />
+      <AboutUs />
+      <Footer />
     </>
   );
 }
