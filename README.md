@@ -6,15 +6,15 @@ I appreciate your support in advance.❤</p>
 
 ### <p></p>
 
-<img src="public/Screenshot (37).png"/>
+<img src="src/assets/Screenshot (38).png"/>
 <hr/>
 
 ### <p align="center">🔧Technologies:</p>
 <div align="center" >
   
 <section width="100%" display="flex" align="center" justify-content="center" gap="2rem">
-<img src="https://img.shields.io/badge/Next_js-666?style=for-the-badge&logo=next.js&logoColor=white%22"/>
-<img src="https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white"/>
+<img src="https://img.shields.io/badge/React-666?style=for-the-badge&logo=react&logoColor=white%22"/>
+<img src="https://img.shields.io/badge/Mui-666?style=for-the-badge&logo=mui&logoColor=white%22"/>
 <img src="https://img.shields.io/badge/Vite-B73BFE?style=for-the-badge&logo=vite&logoColor=FFD62E"/>
 </section>
 
