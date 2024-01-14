@@ -2,8 +2,8 @@ import { LocationOn } from "@mui/icons-material";
 import { Box, Container, Grid } from "@mui/material";
 import Typography from "@mui/material/Typography";
 import { hotelsRestaurants } from "../data";
-import SectionHeader from "./SectionHeader";
 import CustomedButton from "./CustomedButton";
+import SectionHeader from "./SectionHeader";
 
 const Hotels = () => {
   return (

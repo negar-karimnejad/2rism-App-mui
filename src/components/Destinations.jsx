@@ -1,4 +1,4 @@
-import { Grid, Box, Container } from "@mui/material";
+import { Box, Container, Grid } from "@mui/material";
 import Typography from "@mui/material/Typography";
 import { destinations } from "../data";
 import SectionHeader from "./SectionHeader";
@@ -28,7 +28,7 @@ const Destinations = () => {
         >
           {destinations.map((item) => (
             <Grid key={item.id} item>
-              <Box sx={{ width: { xs: 300,sm: 400, md: "100%" } }}>
+              <Box sx={{ width: { xs: 300, sm: 400, md: "100%" } }}>
                 <img width="100%" src={item.image} alt={item.name} />
               </Box>
               <Typography gutterBottom variant="h5" component="div">
